@@ -8,4 +8,4 @@ spec:
   lifecycle: production
   owner: user:guest
   definition:
-    $text: https://raw.githubusercontent.com/alokdnb/test/master/swagger1.jso
+    $text: https://raw.githubusercontent.com/alokdnb/test/master/swagger1.json
