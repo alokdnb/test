@@ -4,7 +4,7 @@
         "title": "Echo API",
         "version": "1.0"
     },
-    "host": "apigateway-alok.azure-api.net",
+    "host": "testapi-hug3c8f4hrguc4dk.a01.azurefd.net",
     "basePath": "/echo",
     "schemes": [
         "https"
