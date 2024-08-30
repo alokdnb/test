@@ -1,1 +1,9 @@
-test content
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cicd-demo-service
+  description: A repo for cicd-demo-service service
+spec:
+  type: service
+  lifecycle: production
+  owner: infra
