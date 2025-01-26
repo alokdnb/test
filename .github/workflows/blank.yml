@@ -36,7 +36,7 @@ jobs:
           npm install handlebars
           ls -lrt
           echo "YWE=" | base64 -d > data.json
-          node ./handlebar.js ./test ./iac_fixtures/data.json
+          node ./handlebar.js ./test iac_fixtures/data.json
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
