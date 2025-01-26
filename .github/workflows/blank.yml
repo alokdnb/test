@@ -34,6 +34,7 @@ jobs:
       - name: Run inline script
         run: |
           npm install handlebars
+          ls -lrt
           #echo %handlebar_data% | base64 -d > ./data.json
           node handlebar.js ./artifacts/%build.number%/ data.json
       # Runs a set of commands using the runners shell
